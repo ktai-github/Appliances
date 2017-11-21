@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C12C12F1FC3E57D009998AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C12E1FC3E57D009998AE /* main.m */; };
+		2C12C1371FC3E5C1009998AE /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C1351FC3E5C1009998AE /* BNRAppliance.m */; };
+		2C12C13A1FC3E5DA009998AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12C1391FC3E5DA009998AE /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		2C12C12B1FC3E57D009998AE /* Appliances */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Appliances; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C12C12E1FC3E57D009998AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C12C1351FC3E5C1009998AE /* BNRAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
+		2C12C1361FC3E5C1009998AE /* BNRAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAppliance.h; sourceTree = "<group>"; };
+		2C12C1391FC3E5DA009998AE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Appliances/main.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,9 @@
 		2C12C1221FC3E57D009998AE = {
 			isa = PBXGroup;
 			children = (
-				2C12C12D1FC3E57D009998AE /* Appliances */,
+				2C12C1381FC3E5C7009998AE /* Appliances */,
+				2C12C1361FC3E5C1009998AE /* BNRAppliance.h */,
+				2C12C1351FC3E5C1009998AE /* BNRAppliance.m */,
 				2C12C12C1FC3E57D009998AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +59,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C12C12D1FC3E57D009998AE /* Appliances */ = {
+		2C12C1381FC3E5C7009998AE /* Appliances */ = {
 			isa = PBXGroup;
 			children = (
-				2C12C12E1FC3E57D009998AE /* main.m */,
+				2C12C1391FC3E5DA009998AE /* main.m */,
 			);
-			path = Appliances;
+			name = Appliances;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C12C12F1FC3E57D009998AE /* main.m in Sources */,
+				2C12C13A1FC3E5DA009998AE /* main.m in Sources */,
+				2C12C1371FC3E5C1009998AE /* BNRAppliance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
